@@ -9,4 +9,12 @@ public class Impressora{
 public float exibir (float a, float c){
         return a + c;
 }
+
+// 1.3
+
+public float exibir (float d, String e){
+    return exibir (d, Integer.parseInt(e));
 }
+
+}
+

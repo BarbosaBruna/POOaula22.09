@@ -16,5 +16,10 @@ public float exibir (float d, String e){
     return exibir (d, Integer.parseInt(e));
 }
 
+// 1.4
+public float exibir (String f, float g){
+    return exibir (Integer.parseInt(f), g);
+}
+
 }
 

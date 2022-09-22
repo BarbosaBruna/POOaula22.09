@@ -1,7 +1,7 @@
 public class Impressora{
 
-    public float soma ( int a, int b){
-        return a + b;
+    public void exibir ( float a){
+        System.out.print(a);
     }
 
 }
